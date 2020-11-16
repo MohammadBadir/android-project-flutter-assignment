@@ -1,16 +1,13 @@
-# hello_me
+# Answers to dry section
 
-A new Flutter application.
+1.The "snappingSheetController" class is used to implement the controller pattern for the snapping_sheet library.
+It gives the developer access to the following properties:
+-currentSnapPosition: The current snap position of the SnappingSheet
+-hashCode: The object's hashcode
+-runtimeType: Representation of the objecy's runtime type.
+-snapPositions: The different snap positions the SnappingSHeet currently has.
 
-## Getting Started
+2.The "snappingCurve" parameter for each SnapPosition in the snapPositions list.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3.Inkwell's advantage: Produces a Material Design ripple effect for the various taps (for visual aid).
+GestureDetector's advantage: Allows for more control and custom effects that don't necessarily follow the material design guidelines
